@@ -1,0 +1,90 @@
+body{
+    font-family: Bradley Hand, cursive;
+}
+
+#tovar{
+    max-width: 260px;
+    border-radius: 20px;
+    background-color: aquamarine;
+}
+img{
+    max-width: 240px;
+    border-radius: 100px;
+    margin-left: 10px;
+}
+h2{
+    text-align: center;
+}
+p{
+    margin-left: 10px;
+}
+
+.div-button{
+    width:100%;
+    margin-left: 35px;
+    padding-bottom: 10px;
+
+}
+
+/*Кнопкa Edit*/
+
+.buttone {
+    background-color: #eee;
+    border: none;
+    padding: 1rem;
+    font-size: 1rem;
+    width: 5em;
+    border-radius: 1rem;
+    color: 	blue;
+    box-shadow: 0 0.4rem #dfd9d9;
+    cursor: pointer;
+   }
+   
+   .buttone:active {
+    color: white;
+    box-shadow: 0 0.2rem #dfd9d9;
+    transform: translateY(0.2rem);
+   }
+   
+   .buttone:hover:not(:disabled) {
+    background: CornflowerBlue;
+    color: white;
+    text-shadow: 0 0.1rem #b4bcb4;
+   }
+   
+   .buttone:disabled {
+    cursor: auto;
+    color: grey;
+   }
+
+/*Кнопкa Delete*/
+
+.buttond {
+    background-color: #eee;
+    border: none;
+    padding: 1rem;
+    font-size: 1rem;
+    width: 5em;
+    border-radius: 1rem;
+    color: lightcoral;
+    box-shadow: 0 0.4rem #dfd9d9;
+    cursor: pointer;
+    margin-left: 20px;
+   }
+   
+   .buttond:active {
+    color: white;
+    box-shadow: 0 0.2rem #dfd9d9;
+    transform: translateY(0.2rem);
+   }
+   
+   .buttond:hover:not(:disabled) {
+    background: lightcoral;
+    color: white;
+    text-shadow: 0 0.1rem #bcb4b4;
+   }
+   
+   .buttond:disabled {
+    cursor: auto;
+    color: grey;
+   }
